@@ -19,10 +19,8 @@ public class Switcher : MonoBehaviour
     {
         audioSource = GetComponent<AudioSource>();
         _light.enabled = false;
-
-
     }
-    private void FixedUpdate()
+    private void Update()
     {
 
         if (Input.GetKeyDown(KeyCode.E))
